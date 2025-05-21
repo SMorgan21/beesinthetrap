@@ -32,10 +32,13 @@ src/
   Service/    → Randomizer abstraction
 tests/        → PHPUnit test coverage
 bin/          → Executable entry point
+vendor/       → Composer dependencies
 ```
 
 ## Notes
-- Modular architecture with separation of concerns
-- Uses dependency injection for testability
-- Core logic is fully unit-tested
-- Constants used for all game balance values
+-Modular architecture with separation of concerns
+-The game uses dependency injection for testability
+-Core logic is fully unit-tested
+-Constants are used for all game balance values
+-Fully compatible with PHPUnit 10
+-Includes integration tests for game scenarios
